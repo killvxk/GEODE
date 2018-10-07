@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Linux", 
+            "includePath": [
+                "/usr/include", 
+                "/usr/local/include",
+                "${workspaceRoot}", 
+                "${workspaceRoot}/include"
+            ], 
+            "defines": [
+                "__STDC_FORMAT_MACROS"
+            ], 
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include", 
+                    "/usr/local/include", 
+                    "${workspaceRoot}", 
+                    "${workspaceRoot}/include"
+                ], 
+                "limitSymbolsToIncludedHeaders": true, 
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
